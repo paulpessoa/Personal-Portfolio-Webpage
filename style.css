@@ -1,0 +1,44 @@
+header {
+    background-color: red;
+    padding-top: 20px;
+
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+header .container nav div ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header .container nav div ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+header .container nav div ul li a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .container nav div ul li a:hover{
+    color: blueviolet;
+}
+
+
+
+#welcome-section, #projects{
+    background-color: rgb(189, 189, 255);
+    padding: 150px 50px;
+}
+
+
+
