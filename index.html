@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
 
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>Personal Portfolio</title>
 </head>
 <body>
     <!--Cabeçalho-->
-    <header>
+    <header id="navbar">
         <div class="container">         
             <!--Logo-->
             <div>
@@ -22,12 +21,12 @@
                 </a>    
             </div>
             <!--Menu-->
-            <nav>    
+            <nav >    
                 <div>
                     <ul class="">
                         <li><a href="#welcome-section">Link1</a></li>
-                        <li><a href="projects">Link1</a></li>
-                        <li><a href="#">Link1</a></li>
+                        <li><a href="#projects">Link1</a></li>
+                        <li><a href="#contact">Link1</a></li>
                     </ul>
                 </div>
             </nav>
@@ -42,27 +41,40 @@
 
             <!--Projetos-->
             <section id="projects">
-                <div class="col-md-4 col-sm-12">
-                    <h3 class="project-tile text-center">Projeto 1</h3>
-                    <img src="./img/projeto1.jpg" alt="">
-                    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
-                </div>
+                <div class="row text-center">
+                    <div class="col-md-4 col-sm-12 card">
+                        <h3 class="project-tile text-center">Projeto 1</h3>
+                        <div class="img-project"></div>
+                        <a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+                    </div>
 
-                <div class="col-md-4 col-sm-12">
-                    <h3 class="project-tile text-center">Projeto 1</h3>
-                    <img src="./img/projeto1.jpg" alt="">
-                    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
-                </div>
+                    <div class="col-md-4 col-sm-12 card">
+                        <h3 class="project-tile text-center">Projeto 1</h3>
+                        <div class="img-project"></div>
+                        <a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+                    </div>
 
-                <div class="col-md-4 col-sm-12">
-                    <h3 class="project-tile text-center">Projeto 1</h3>
-                    <img src="./img/projeto1.jpg" alt="">
-                    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
-                </div>
-
+                    <div class="col-md-4 col-sm-12 card">
+                        <h3 class="project-tile text-center">Projeto 1</h3>
+                        <div class="img-project"></div>
+                        <a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+                    </div>
+                </div>    
             </section>
 
+            <!--Contact-->
+            <section id="contact">
+                <h1 class="text-center">Follow us</h1>
+                <p class="text-center">Look here ...</p>
+                <div class="text-center social">
+                    
+                    <a href="https://github.com/paulpessoa" id="profile-link" target="_blank"><i class="fab fa-github"></i> paulmspessoa</a>
+                    <a href="https://www.linkedin.com/in/paulmspessoa/" target="_blank"><i class="fab fa-linkedin"></i>paulmspessoa</a>
+                    <a href="https://instagram.com/paulpessoa" target="_blank"><i class="fab fa-instagram"></i>paulmspessoa</a>
+                    <a href="https://facebook.com/paulpessoa" target="_blank"><i class="fab fa-facebook"></i>paulmspessoa</a>
 
+                </div>
+            </section>
 
 
     </main>

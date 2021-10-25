@@ -1,8 +1,13 @@
-header {
+#navbar {
     background-color: red;
     padding-top: 20px;
-
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 1000;
 }
+
+
 
 header .container {
     display: flex;
@@ -34,11 +39,50 @@ header .container nav div ul li a:hover{
 }
 
 
+main {
+    top: 100px;
+}
 
-#welcome-section, #projects{
+
+#welcome-section, #projects, #contact{
     background-color: rgb(189, 189, 255);
     padding: 150px 50px;
+    height: 100vh;
+}
+
+
+#projects .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#projects .row .card {
+    display: flex;
+    max-width: 400px;
+    align-items: center;
+    padding: 10px;   
+}
+
+.card a {
+    margin: 10px auto;
+}
+
+.img-project  {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(./img/projeto1.jpg);
+    padding: 10px;
 }
 
 
 
+.social a {
+    
+}
+
+.social a i {
+    padding: 10px;
+}
